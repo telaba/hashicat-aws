@@ -13,7 +13,7 @@ output "s3_bucket_arn"{
 output "s3_bucket_bucket_domain_name"{
   value = "${aws_eip.s3_bucket_bucket_domain_name}"
 }
-output "aws_eip.s3_bucket_bucket_regional_domain_name"{
+output "s3_bucket_bucket_regional_domain_name"{
   value = "${aws_eip.s3_bucket_bucket_regional_domain_name}"
 }
 output "s3_bucket_hosted_zone_id"{
